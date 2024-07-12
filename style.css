@@ -1,0 +1,205 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#contents {
+  padding: 2em;
+}
+#contents-1 {
+  margin: 1em 0;
+  padding: 1em;
+}
+#contents-1-number {
+  color: grey;
+  opacity: 0.25;
+}
+#contents-1-content {
+  padding-top: 0.5em;
+}
+#contents-1-content-title {
+  font-size: large;
+}
+
+#contents-2 {
+  margin: 1em 0;
+  padding: 1em;
+}
+#contents-2-number {
+  color: grey;
+  opacity: 0.25;
+}
+#contents-2-content {
+  padding-top: 0.5em;
+}
+#contents-2-content-title {
+  font-size: large;
+}
+
+#contents-3 {
+  margin: 1em 0;
+  padding: 1em;
+}
+#contents-3-number {
+  color: grey;
+  opacity: 0.25;
+}
+#contents-3-content {
+  padding-top: 0.5em;
+}
+#contents-3-content-title {
+  font-size: large;
+}
+
+#contents-4 {
+  margin: 1em 0;
+  padding: 1em;
+}
+#contents-4-number {
+  color: grey;
+  opacity: 0.25;
+}
+#contents-4-content {
+  padding-top: 0.5em;
+}
+#contents-4-content-title {
+  font-size: large;
+}
+
+#contents-5 {
+  margin: 1em 0;
+  padding: 1em;
+}
+#contents-5-number {
+  color: grey;
+  opacity: 0.25;
+}
+#contents-5-content {
+  padding-top: 0.5em;
+}
+#contents-5-content-title {
+  font-size: large;
+}
+
+#contents-6 {
+  margin: 1em 0;
+  padding: 1em;
+}
+#contents-6-number {
+  color: grey;
+  opacity: 0.25;
+}
+#contents-6-content {
+  padding-top: 0.5em;
+}
+#contents-6-content-title {
+  font-size: large;
+}
+#artikel {
+  background-color: #f7f9fa;
+  padding: 1em 2em;
+}
+#discover {
+  padding: 1em 2em;
+}
+#discover-badge-1 {
+  margin: 0.5em 0px;
+}
+#discover-title-subscribtion {
+  margin-top: 0.5em;
+}
+footer {
+  text-align: center;
+}
+#navbar {
+  background-color: darkgoldenrod;
+}
+hr {
+  margin: 0px 0px;
+  height: 3px;
+  opacity: 0.5;
+}
+#description {
+  margin-bottom: 0;
+}
+
+#contents-p {
+  margin-bottom: 0;
+}
+
+#link {
+  margin: 1em 0;
+}
+#discover-badge-button {
+  border-radius: 20px;
+}
+.card-title {
+  margin-right: 0.5em;
+}
+.card-text {
+  margin-bottom: 0;
+}
+#nav-button {
+  border-radius: 25px;
+}
+form {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#warning {
+  color: red;
+}
+
+/* Leyout Mobile */
+@media screen and (max-width: 700px) {
+  #carousel-right {
+    display: none;
+  }
+
+  #carousel {
+    padding: 2em 1em;
+  }
+  #carousel-left-ception {
+    padding: 0 1em;
+  }
+  #link {
+    margin: 1em 0;
+  }
+}
+
+/* Leyout Website */
+@media screen and (min-width: 1500px) {
+  #carousel-left-button {
+    margin: 1em 0;
+    width: 20%;
+  }
+  #crousel {
+    margin: 2em 0;
+  }
+  #waves {
+    margin-top: -400px;
+  }
+  #contents-1 {
+    padding: 1em;
+  }
+  #contents-2 {
+    padding: 1em;
+  }
+  #contents-3 {
+    padding: 1em;
+  }
+  #contents-4 {
+    padding: 1em;
+  }
+  #contents-5 {
+    padding: 1em;
+  }
+  #contents-6 {
+    padding: 1em;
+  }
+}
